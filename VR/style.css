@@ -1,0 +1,116 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: lightskyblue;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+    margin-top: 80px;
+    padding: 3% 10%;
+    transition: ease-in-out 2s;
+   
+}
+
+.Prof {
+    border-radius: 39% 61% 70% 30% / 80% 71% 29% 20% ;
+    position: absolute;
+    z-index: 1;
+    margin-left: 50px;
+    
+    
+    
+}
+
+button {
+    background-color: #fefffd;
+    height: 40px;
+    width: 90px;
+    border-radius: 11px;
+    color: rgb(39, 158, 65);
+    border-color: aqua;
+}
+.button2 {
+    background-color: #fefffd;
+    height: 40px;
+    width: 90px;
+    border-radius: 11px;
+    color: rgb(39, 158, 65);
+    border-color: aqua;
+}
+
+.classR{
+    position: relative;
+}
+ .likod{
+    background-image: url('download (1).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 415px;
+    width: 400px;
+    margin-left: 50px;
+    border: 1px solid rgb(39, 130, 172);
+    border-radius: 74% 26% 70% 30% / 80% 71% 29% 20%;
+    background-color: rgb(7, 0, 100);
+    z-index: 0;
+
+} 
+h1{
+    color: rgb(5, 22, 54);
+
+}
+.project{
+    font-weight: 700;
+    margin-top: 200px;
+    font-size: 27px;
+    margin-left: 530px;
+    color: rgb(5, 27, 75);
+}
+.p{
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+    margin-top: 80px;
+   
+    padding: 3% 10%;
+    transition: ease-in-out 2s;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+.image-class {
+    text-align: top;
+    width: 400px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    position: relative;
+    
+}
+
+.image-class2 {
+    text-align: top;
+    width: 400px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    position: relative; /* Adjust position as needed */
+    
+}
+.image-class3 {
+    text-align: top;
+    width: 400px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    position: relative; /* Adjust position as needed */
+    /* Add any other styles you want to apply */
+}
